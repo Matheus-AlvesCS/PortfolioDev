@@ -27,3 +27,9 @@
   --text-md: 400 16px/1.4 var(--font-maven-pro);
   --text-sm: 400 14px/1.4 var(--font-maven-pro);
 }
+
+body {
+  font: var(--text-sm);
+  color: var(--gray-100);
+  background-color: var(--gray-500);
+}

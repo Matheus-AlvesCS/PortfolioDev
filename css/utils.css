@@ -1,0 +1,15 @@
+.container {
+  padding-inline: 120px;
+}
+
+.grid {
+  display: grid;
+}
+
+.title-lg {
+  font: var(--title-lg);
+}
+
+.subtitle {
+  font: var(--subtitle);
+}
