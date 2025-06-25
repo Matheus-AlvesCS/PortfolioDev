@@ -21,12 +21,15 @@
     <title>Portfólio</title>
   </head>
   <body>
-    <main id="intro" class="container">
-      <div id="info">
+    <main id="intro" class="container grid">
+      <div id="info" class="grid">
         <header>
-          <img src="./assets/avatar.png" alt="matheus-avatar" />
-          <div id="text">
-            <div id="title">
+          <div>
+            <img id="avatar" src="./assets/avatar.png" alt="matheus-avatar" />
+            <img src="./assets/icons/Code.svg" alt="code-icon" />
+          </div>
+          <div>
+            <div>
               <h2 class="subtitle">
                 Hello World! Meu nome é <span>Matheus Alves</span> e sou
               </h2>
@@ -40,34 +43,34 @@
             </p>
           </div>
         </header>
-        <div>
-          <span>
+        <div id="tags" class="grid grid-auto-cols">
+          <span class="grid grid-auto-cols">
             <img src="./assets/icons/GitHub.svg" alt="github-icon" />
-            GitHub
+            <p class="text-md">GitHub</p>
           </span>
-          <span>
+          <span class="grid grid-auto-cols">
             <img src="./assets/icons/HTML.svg" alt="html-icon" />
-            HTML
+            <p class="text-md">HTML</p>
           </span>
-          <span>
+          <span class="grid grid-auto-cols">
             <img src="./assets/icons/CSS.svg" alt="css-icon" />
-            CSS
+            <p class="text-md">CSS</p>
           </span>
-          <span>
+          <span class="grid grid-auto-cols">
             <img src="./assets/icons/JavaScript.svg" alt="javascript-icon" />
-            JavaScript
+            <p class="text-md">JavaScript</p>
           </span>
-          <span>
+          <span class="grid grid-auto-cols">
             <img src="./assets/icons/React.svg" alt="react-icon" />
-            React
+            <p class="text-md">React</p>
           </span>
-          <span>
+          <span class="grid grid-auto-cols">
             <img src="./assets/icons/Node.js.svg" alt="nodejs-icon" />
-            Node.js
+            <p class="text-md">Node.js</p>
           </span>
         </div>
       </div>
-      <div>
+      <div class="grid">
         <img src="./assets/icons/Vector.svg" alt="arrow-to-down" />
       </div>
     </main>

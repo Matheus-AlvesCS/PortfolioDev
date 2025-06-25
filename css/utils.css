@@ -1,9 +1,9 @@
-.container {
-  padding-inline: 120px;
-}
-
 .grid {
   display: grid;
+}
+
+.grid-auto-cols {
+  grid-auto-flow: column;
 }
 
 .title-lg {
@@ -12,4 +12,8 @@
 
 .subtitle {
   font: var(--subtitle);
+}
+
+.text-md {
+  font: var(--text-md);
 }
