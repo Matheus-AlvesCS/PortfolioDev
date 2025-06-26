@@ -1,0 +1,11 @@
+#projects {
+  padding: 72px 120px 144px;
+
+  header {
+    text-align: center;
+
+    h3 {
+      color: var(--red);
+    }
+  }
+}
