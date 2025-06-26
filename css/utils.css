@@ -6,6 +6,10 @@
   grid-auto-flow: column;
 }
 
+.gap-20 {
+  gap: 20px;
+}
+
 .title-lg {
   font: var(--title-lg);
 }
