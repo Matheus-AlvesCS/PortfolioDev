@@ -1,11 +1,39 @@
 #projects {
-  padding: 72px 120px 144px;
+  padding-block: 72px 144px;
 
   header {
     text-align: center;
+    margin-bottom: 56px;
 
     h3 {
       color: var(--red);
+    }
+  }
+
+  & > div {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+  }
+
+  #card {
+    padding: 12px;
+    background-color: var(--gray-400);
+    border-radius: 12px;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    & > div {
+      margin-top: 20px;
+      padding: 4px;
+
+      p {
+        color: var(--gray-200);
+        margin-top: 8px;
+      }
     }
   }
 }
