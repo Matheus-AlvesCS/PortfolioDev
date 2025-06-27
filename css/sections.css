@@ -20,6 +20,10 @@
     background-color: var(--gray-400);
     border-radius: 12px;
 
+    &:hover {
+      border: 1.5px solid var(--gray-300);
+    }
+
     img {
       width: 100%;
       object-fit: cover;
@@ -54,12 +58,68 @@
   & > div {
     gap: 24px;
     justify-content: center;
-    grid-template-columns: repeat(3, 280px);
+    grid-template-columns: repeat(3, minmax(280px, 1fr));
 
     & > div {
       padding: 20px;
       border: 1px solid var(--gray-500);
       border-radius: 12px;
+    }
+  }
+}
+
+#contacts {
+  padding-block: 128px 200px;
+  background-image: url(../assets/images/Background_Contacts.png);
+  background-position: center;
+  background-size: cover;
+
+  header {
+    text-align: center;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    h3 {
+      color: var(--purple);
+    }
+
+    p {
+      color: var(--gray-200);
+    }
+  }
+
+  ul {
+    max-width: 400px;
+    list-style: none;
+    margin-inline: auto;
+    display: grid;
+    gap: 16px;
+
+    li {
+      background-color: var(--gray-400);
+      border-radius: 8px;
+      padding: 20px;
+
+      &:hover {
+        border: 1.5px solid var(--blue);
+      }
+    }
+
+    a {
+      text-decoration: none;
+      grid-template-columns: 0.5fr 3fr 0.5fr;
+      align-items: center;
+
+      p {
+        font: var(--text-md);
+        color: var(--gray-200);
+      }
+
+      img:last-child {
+        justify-self: end;
+      }
     }
   }
 }
